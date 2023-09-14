@@ -16,7 +16,7 @@ Console.WriteLine();
 PrintArray(table);
 
 
-// Функция заполнения массива рандомно числами от 1 до 9
+// Функция заполнения массива числами от 1 до 9
 void FillArrayRandom(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)

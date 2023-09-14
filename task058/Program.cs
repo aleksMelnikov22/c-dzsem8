@@ -6,8 +6,8 @@
 // 18 20
 // 15 18
 
-int rows = ReadInt("Введите количество строк: ");
-int columns = ReadInt("Введите количество столбцов: ");
+int rows = ReadInt("Задайте количество строк: ");
+int columns = ReadInt("Задайте количество столбцов: ");
 int[,] array = new int[rows, columns];
 int[,] secondArray = new int[rows, columns];
 int[,] resultArray = new int[rows, columns];
@@ -24,7 +24,7 @@ Console.WriteLine();
 
 if (array.GetLength(0) != secondArray.GetLength(1))
 {
-    Console.WriteLine(" Нельзя перемножить ");
+    Console.WriteLine(" Неверно введены условия ");
     return;
 }
 for (int i = 0; i < array.GetLength(0); i++)
